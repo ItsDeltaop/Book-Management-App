@@ -1,5 +1,3 @@
-function App() {
- return <h1>Book Managaement App</h1>
-}
+import { Routes, Route, Navigate } from "react-router-dom";
+import Layout from "./components/Layout";
 
-export default App
