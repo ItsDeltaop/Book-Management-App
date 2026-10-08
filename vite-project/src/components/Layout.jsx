@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
-import { BookOpen, LayoutDashboard, Library, Users, ArrowLeftRight, Plus, Moon, Sun } from "lucide-react";
+import { BookOpen, LayoutDashboard, Library, Plus, Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function Layout() {
@@ -13,8 +13,6 @@ export default function Layout() {
   const links = [
     { to: "/", label: "Dashboard", icon: LayoutDashboard, end: true },
     { to: "/books", label: "Books", icon: Library },
-    { to: "/members", label: "Members", icon: Users },
-    { to: "/transactions", label: "Transactions", icon: ArrowLeftRight }
   ];
 
   return (
@@ -22,7 +20,7 @@ export default function Layout() {
       <aside className="sidebar">
         <div className="brand">
           <div className="brand-icon"><BookOpen size={21} /></div>
-          <div><strong>Libra</strong><span>Library Manager</span></div>
+          <div><strong>Libra</strong><span>Book Manager</span></div>
         </div>
         <nav>
           <p className="nav-label">Workspace</p>
