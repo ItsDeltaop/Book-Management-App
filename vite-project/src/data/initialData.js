@@ -1,4 +1,4 @@
-import AtomicHabits from "./assets/AtomicHabits.jpg";
+import Book1 from "./assets/Book1.jpg";
 import Book2 from "./assets/Book2.jpg";
 import Book3 from "./assets/Book3.jpg";
 import Book4 from "./assets/Book4.jpg";
@@ -17,7 +17,7 @@ export const initialBooks = [
     available: 3,
     rating: 4.8,
     description: "A practical guide to building good habits and breaking bad ones through small, consistent changes.",
-    cover: AtomicHabits
+    cover: Book1
   },
   {
     id: "b2",
