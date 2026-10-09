@@ -1,9 +1,10 @@
-import Book1 from "./assets/Book1.jpg";
-import Book2 from "./assets/Book2.jpg";
-import Book3 from "./assets/Book3.jpg";
-import Book4 from "./assets/Book4.jpg";
-import Book5 from "./assets/Book5.jpg";
-import Book6 from "./assets/Book6.jpg";
+
+import Book1 from "./Book1.jpg";
+import Book2 from "./Book2.jpg";
+import Book3 from "./Book3.jpg";
+import Book4 from "./Book4.jpg";
+import Book5 from "./Book5.jpg";
+import Book6 from "./Book6.jpg";
 
 export const initialBooks = [
   {
